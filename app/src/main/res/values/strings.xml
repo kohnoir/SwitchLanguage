@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">SwitchLanguage</string>
-    <string name="OK">Ok</string>
-    <string name="Txt">Мы русские с нами бог!</string>
-    <string-array name="Lang">
+    <string name="ok">Ok</string>
+    <string name="txt">Мы русские с нами бог!</string>
+    <string-array name="lang">
         <item>ru</item>
         <item>eng</item>
     </string-array>
