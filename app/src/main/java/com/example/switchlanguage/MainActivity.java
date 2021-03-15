@@ -13,7 +13,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     private Spinner sLang;
-    Button btn;
+    private Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         initButton();
     }
     private void initViews(){
-        sLang = findViewById(R.id.Spinner);
+        sLang = findViewById(R.id.spinner);
         btn = findViewById(R.id.btn);
         initSpinner();
     }
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                                 .getDisplayMetrics());
         setTitle(R.string.app_name);
 
-        TextView txt = findViewById(R.id.textView);
+        TextView txt = findViewById(R.id.text_view);
         txt.setText(R.string.txt);
     }
 }
